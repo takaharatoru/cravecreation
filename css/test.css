@@ -21,12 +21,16 @@ body{
 .slider-for{
   float:left;
   width: 20%;
+  height: 500px;
   background-color: blue;
+  margin: 10px 30px 30px 30px;
 }
 .sns{
   width: 20%;
+  height: 400px;
   float:left;
   background-color: white;
+  margin: 30px;
 }
 
 /* .my-2 {
