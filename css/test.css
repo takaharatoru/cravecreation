@@ -14,6 +14,20 @@ body{
   padding-top: 10px;
 
 }
+.slider-nav{
+  float:left;
+  width: 75%;
+}
+.slider-for{
+  float:left;
+  width: 20%;
+  background-color: blue;
+}
+.sns{
+  width: 20%;
+  float:left;
+  background-color: white;
+}
 
 /* .my-2 {
   margin: 20px auto;
