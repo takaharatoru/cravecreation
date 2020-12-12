@@ -1,7 +1,8 @@
 $(document).ready(function(){
     $('.slider-for').slick({
       asNavFor: '.slider-nav',
-      arrows: false
+      arrows: false,
+      touchMove: true
     });
     $('.slider-nav').slick({
       asNavFor: '.slider-for',
