@@ -14,6 +14,16 @@ body{
   padding-top: 10px;
 
 }
+.closebtn{
+  background-color: gold;
+  font-size: 12px;
+  border-radius: 5px;
+  border-bottom: solid 3px goldenrod;
+  box-shadow: 3px 3px 3px gray;
+  transition: 0.3s;
+}
+
+
 .slider-nav{
   float:left;
   width: 75%;
@@ -25,15 +35,22 @@ body{
   background-color: blue;
   margin: 10px 30px 30px 30px;
 }
+.ads{
+  width: 20%;
+  height: 300px;
+  float:left;
+  background-color: rgb(121, 117, 117);
+  margin: 0px 30px 5px 30px;  
+}
 .sns{
   width: 20%;
   height: 400px;
   float:left;
-  background-color: white;
+  background-color: rgb(121, 117, 117);
   margin: 30px;
 }
 
-/* .my-2 {
+.my-2 {
   margin: 20px auto;
   text-align: center;
 }
@@ -84,85 +101,7 @@ body{
   background-color: #3b5998;
 }
 
-.btn {
-  width: 55px;
-  height: 55px;
-  background: none;
-  border: 2.2px solid #000;
-  border-radius: 50%;
-  outline: none;
-  color: #fff;
-  cursor: pointer;
-  font-size: 25px;
-  position: relative;
-  transition: all 250ms linear;
-}
-.btn:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #000;
-  border-radius: 50%;
-  z-index: -2;
-}
-.btn:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  transform: scale(0);
-  z-index: -1;
-  transition: all 250ms linear;
-}
-.btn:focus {
-  color: #fff;
-  border-color: #fff;
-}
-.btn:hover:before, .btn:focus:before {
-  transform: scale(1);
-}
-.btn:hover {
-  border-color: #fff;
-}
 
-.btn-square {
-  padding: 5px 10px;
-  height: 40px;
-  background: none;
-  font-size: 17.5px;
-  font-family: roboto;
-  border: 2px solid #000;
-  color: #000;
-  cursor: pointer;
-  outline: none;
-  position: relative;
-  border-radius: 3px;
-  overflow: hidden;
-  transition: all 200ms linear;
-}
-.btn-square:focus, .btn-square:hover {
-  color: #fff;
-  border-color: #fff;
-}
-.btn-square:before {
-  content: "";
-  width: 0%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  transition: all 300ms linear;
-}
-.btn-square:hover:before, .btn-square:focus:before {
-  width: 100%;
-}
 
 .btn-flip {
   padding: 5px 10px;
@@ -347,4 +286,4 @@ body{
 .pinterest:before {
   background: #c92228;
 }
- */
+
