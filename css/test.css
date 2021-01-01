@@ -5,22 +5,32 @@ body{
 .font-0{
   color:silver;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 25px;
 }
 .font-1{
   font-weight: lighter;
-  font-size: 15px;
+  font-size: 20px;
   color:silver;
-  padding-top: 10px;
+  margin-top: -10px;
 
 }
 .closebtn{
-  background-color: gold;
-  font-size: 12px;
-  border-radius: 5px;
-  border-bottom: solid 3px goldenrod;
-  box-shadow: 3px 3px 3px gray;
-  transition: 0.3s;
+  position: absolute;
+  margin-left:1370px;
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
+  color: #FFF;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.73);
+  padding: 0.3em 0.5em;
+  background: #00bcd4;
+  border-top: solid 3px #00a3d4;
+  border-bottom: solid 3px #00a3d4;
+  transition: .4s;
+}
+.closebtn:hover{
+  text-shadow: -6px 0px 15px rgba(255, 255, 240, 0.83),
+  6px 0px 15px rgba(255, 255, 240, 0.83);
 }
 
 
@@ -32,45 +42,20 @@ body{
   float:left;
   width: 20%;
   height: 500px;
-  background-color: blue;
-  margin: 10px 30px 30px 30px;
+  margin: -160px 30px 30px 30px;
 }
 .ads{
   width: 20%;
   height: 300px;
   float:left;
-  background-color: rgb(121, 117, 117);
   margin: 0px 30px 5px 30px;  
-}
-.sns{
-  width: 20%;
-  height: 400px;
-  float:left;
-  background-color: rgb(121, 117, 117);
-  margin: 30px;
 }
 
 .my-2 {
-  margin: 20px auto;
+  margin: -10px 20px 20px 0px;
   text-align: center;
 }
 
-.btn-3d {
-  padding: 5px 10px;
-  height: 40px;
-  font-size: 17.5px;
-  font-family: roboto;
-  border: 1px solid #444;
-  border-bottom-width: 6px;
-  color: #fff;
-  background: #000;
-  box-sizing: border-box;
-  cursor: pointer;
-  outline: none;
-  position: relative;
-  border-radius: 3px;
-  transition: all 200ms linear;
-}
 .btn-3d:focus {
   border-bottom-width: 1.5px;
   border-top-width: 6px;
@@ -103,73 +88,11 @@ body{
 
 
 
-.btn-flip {
-  padding: 5px 10px;
-  height: 40px;
-  margin-right: 40px;
-  font-size: 17.5px;
-  background: #000;
-  color: #fff;
-  border: 2px solid #000;
-  outline: none;
-  cursor: pointer;
-  perspective-origin: right center;
-  perspective: 80px;
-  position: relative;
-}
-.btn-flip:before {
-  font-family: FontAwesome;
-  content: attr(icon);
-  position: absolute;
-  font-size: 20px;
-  color: #000;
-  background: none;
-  border: 2px solid #000;
-  height: 40px;
-  width: 40px;
-  line-height: 38px;
-  box-sizing: border-box;
-  top: -2px;
-  right: -42px;
-  z-index: -1;
-  transform-origin: left center;
-  transform: rotateY(90deg);
-  transition: all 250ms ease-in-out;
-}
-.btn-flip:hover:before, .btn-flip:focus:before {
-  transform: rotateY(0);
-}
-
-.btn-ext {
-  padding: 5px 10px;
-  height: 40px;
-  margin-right: 40px;
-  font-size: 17.5px;
-  background: #000;
-  color: #fff;
-  border: 2px solid #000;
-  outline: none;
-  cursor: pointer;
-  position: relative;
-}
-.btn-ext:before {
-  font-family: FontAwesome;
-  content: attr(icon);
-  position: absolute;
-  font-size: 20px;
-  color: #000;
-  background: #fff;
-  height: 40px;
-  width: 40px;
-  line-height: 40px;
-  box-sizing: border-box;
-  top: -2px;
-  right: 0;
-  z-index: -1;
-  transition: all 200ms ease-in-out;
-}
-.btn-ext:hover:before, .btn-ext:focus:before {
-  right: -42px;
+.sns{
+  width: 20%;
+  height: 200px;
+  float:left;
+  margin: 30px;
 }
 
 .btn-polygon {
@@ -216,40 +139,7 @@ body{
   transform: translate(0) rotateY(0);
 }
 
-.btn-rombo {
-  height: 60px;
-  width: 60px;
-  margin: 9px;
-  font-size: 17.5px;
-  color: #000;
-  background: rgba(0, 0, 0, 0);
-  border: solid 2px #000;
-  outline: none;
-  cursor: pointer;
-  transform: rotate(225deg);
-  position: relative;
-  transition: 0.2s ease-in;
-}
-.btn-rombo:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 0%;
-  transition: 0.2s ease-in;
-}
-.btn-rombo:hover, .btn-rombo:focus {
-  color: #fff;
-  border-color: #fff;
-}
-.btn-rombo:hover:before, .btn-rombo:focus:before {
-  height: 100%;
-}
 
-.btn-rombo i {
-  transform: rotate(135deg);
-}
 
 .btn-expand {
   height: 40px;
