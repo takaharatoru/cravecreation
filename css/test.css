@@ -15,7 +15,21 @@ body{
 
 }
 .closebtn{
-  position: absolute;
+  font-size: 100%;/*ボタンの大きさ*/
+  font-weight: bold;
+  border: 1px solid #999;
+  color: #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  width: 1.3em;
+  line-height: 1.3em;
+  cursor: pointer;
+  transition: .2s;
+  margin-left: 1400px;
+
+  /* position: absolute;
   margin-left:1370px;
   display: inline-block;
   font-weight: bold;
@@ -26,11 +40,15 @@ body{
   background: #00bcd4;
   border-top: solid 3px #00a3d4;
   border-bottom: solid 3px #00a3d4;
-  transition: .4s;
+  transition: .4s; */
 }
 .closebtn:hover{
-  text-shadow: -6px 0px 15px rgba(255, 255, 240, 0.83),
-  6px 0px 15px rgba(255, 255, 240, 0.83);
+  background: #333;
+  border-color: #333;
+  color: #FFF;
+
+  /* text-shadow: -6px 0px 15px rgba(255, 255, 240, 0.83),
+  6px 0px 15px rgba(255, 255, 240, 0.83); */
 }
 
 
